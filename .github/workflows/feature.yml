@@ -7,7 +7,7 @@ on:
 jobs:
     feature-test:
         name: "Feature Test"
-        uses: muselab-d2x/d2x/.github/workflows/create-scratch-org.yml@feature/osc-prototype
+        uses: muselab-d2x/d2x/.github/workflows/create-scratch-unmanaged.yml@feature/osc-prototype
         secrets:
             dev-hub-auth-url: "${{ secrets.DEV_HUB_AUTH_URL }}"
             gh-email: "${{ secrets.GH_EMAIL }}"
