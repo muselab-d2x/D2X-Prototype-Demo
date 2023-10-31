@@ -1,5 +1,5 @@
 # Use the latest version of the d2x image
-FROM ghcr.io/muselab-d2x/d2x:latest
+FROM ghcr.io/muselab-d2x/d2x:prototype
 
 # Set up bash prompt
 USER d2x
